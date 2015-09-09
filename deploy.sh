@@ -1,7 +1,7 @@
 #! /bin/bash
 
 SHA1=$1
-EB_BUCKET=elasticbeanstalk-us-west-2-489284558735
+EB_BUCKET=sharethis-dev-naresh
 
 # Deploy image to Docker Hub
 docker push afung/hello:$SHA1
